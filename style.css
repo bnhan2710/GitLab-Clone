@@ -82,7 +82,7 @@ transition: all 0.2 ease-in-out;
     height: 85px;
     background-color: white;
 }
-.Fox {
+.fox_icon {
     width: 33.33px;
     height: 33.33px;
     margin-left: 24px;
@@ -141,6 +141,7 @@ transition: all 0.2 ease-in-out;
     border: 1px solid #171321;
 }
 .nav_item{
+    cursor: pointer;
    color: #74717a;
 }
 .nav_item:hover{
