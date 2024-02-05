@@ -3,8 +3,6 @@
     padding: 0;
 }
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-family: Inter,"sans-serif";
     font-size: 16px;
     font-weight: 400;
@@ -21,7 +19,6 @@ body {
     display: flex;
     align-items: center;
     background-color: #171321;
-    display: flex;
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -42,9 +39,9 @@ font-weight: 400;
 margin-left: 24px;
 -webkit-text-decoration: underline;
 text-decoration: underline;
-transition: hover linear 0.2s;
+transition: all 0.2 ease-in-out;
 }
-.learnmorebutton{
+.learnmore_button{
     align-items: center;
     border-radius: 4px;
     box-sizing: border-box;
@@ -55,7 +52,8 @@ transition: hover linear 0.2s;
     line-height: 20px;
     min-width: 68px;
     padding: 11px 16px;
-    text-align: center
+    text-align: center;
+    transition: all 1s linear;
 }
 .mt{
     color: #fff;
@@ -67,4 +65,87 @@ transition: hover linear 0.2s;
 .right_arrow{
     color: #fff;
     transform: translateY(3px);
+}
+.learnmore_button:hover .right_arrow{
+    transform: translateX(7px) translateY(3px);
+}
+/* asdasdasdasd */
+.navigation_container {
+    position: sticky; 
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+}
+.Fox {
+    width: 33.33px;
+    height: 33.33px;
+    margin-left: 24px;
+}
+.item_left {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    width: 66.67%;
+    height: 85px;
+}
+.item_left  p {
+    font-size: 18px;
+    margin: 6px;
+}
+.item_right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    align-items: center;
+    width: 33.33%;
+    height: 85px;
+}
+.item_right  p {
+    font-size: 18px;
+    margin: 30px;
+}
+.nav_button1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #171321;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    border: 1px solid #171321;
+}
+.nav_button1:hover {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    color: #171321;
+    font-weight: 600;
+    font-size: 19px;
+    border: 1px solid #171321;
+}
+.nav_item{
+   color: #74717a;
+}
+.nav_item:hover{
+    color: #171321;
+}
+.s_icon{
+    cursor: pointer;
 }
