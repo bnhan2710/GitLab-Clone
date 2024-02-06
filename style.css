@@ -8,12 +8,19 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin: 0;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;}
+.chat_box{
+    position: fixed;
+    top: 87%;
+    left: 93%;
+}
+.img_chat{
+    border-radius: 10%;
 }
 .box_container1{
     background-image: url(https://about.gitlab.com/nuxt-images/home/gradient.png);
     background-size: 100%;
-    height: 800px;
+    height: 1100px;
 }
 .banner{
     display: flex;
@@ -53,7 +60,10 @@ transition: all 0.2 ease-in-out;
     min-width: 68px;
     padding: 11px 16px;
     text-align: center;
-    transition: all 1s linear;
+    transition: 1s linear;
+}
+.learnmore_button:hover{
+    transition: 1s linear;
 }
 .mt{
     color: #fff;
@@ -147,6 +157,27 @@ transition: all 0.2 ease-in-out;
 .nav_item:hover{
     color: #171321;
 }
+
 .s_icon{
     cursor: pointer;
+}
+.hero_scroll_container{
+    width: 100%;
+    height: 715px;
+}
+.brand_lg_container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.logo_list{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 14px;
 }
