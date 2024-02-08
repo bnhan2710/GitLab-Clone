@@ -27,7 +27,7 @@ body {
     border-radius: 10%;
 }
 .box_container1{
-        height: 2000px;
+        height: 3000px;
 }
 .banner{
     display: flex;
@@ -366,9 +366,9 @@ h5{
 }
 .case_left{
     width: 50%;
-    height: 300px;
+    height: 320px;
     padding: 24px;
-    border-radius: 5px;
+    border-radius: 10px 0 0 10px;
     background-color: #f6f3fe;
 }
 .case_left h3{
@@ -401,17 +401,17 @@ h5{
 .down_arrow{
     transform: rotateZ(180px);
 }
-.r_t{
+.sc_but{
     margin-top: 60px;
     font-weight: 900;
     transition: 0.2s linear;
 }
-.read_story{
+.sc_button{
     text-decoration: none; 
     color: black;
     transition: all 0.2s linear;
 }
-.read_story:hover {
+.sc_button:hover {
     text-decoration: underline;
     color:black;
 }
@@ -419,8 +419,32 @@ h5{
     transform: translateY(4px) translateX(3px);
     transition: 0.2s linear;
 }
-.r_t:hover .pill_right{
+.sc_but:hover .pill_right{
     transform: translateY(4px) translateX(10px);
     cursor: pointer;
 }
+.case_right{
+    height: 360px;
+    padding: 20px;
+    padding-top: 0;
+    width: 50%;
+    transform: translateY(6px);
+}
+.case__top{
+    border-radius: 0 10px 0 0 ;
+    height: 180px;
+    padding: 20px 20px 0 20px ;
+    background-color: #f6f3fe;
+}
+.case__bot{
+    height: 140px;
+    margin-top: 8px;
+    border-radius: 0 0 120px 0;
+    padding: 20px 180px 0 20px ;
+    background-color: #f6f3fe;
+}
+.case__bot .sc_but{
+    margin-top: 20px;
+}
+
 
