@@ -27,7 +27,7 @@ body {
     border-radius: 10%;
 }
 .box_container1{
-        height: 3000px;
+        height: 4000px;
 }
 .banner{
     display: flex;
@@ -129,7 +129,7 @@ ul{
     justify-content: start;
     align-items: center;
     width: 66.67%;
-    transform: translateX(90px);
+    transform: translateX(60px);
     height: 85px;
 }
 .drop_icon{
@@ -350,6 +350,7 @@ h5{
     font-size: 20px;
 }
 .showcase_container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -439,12 +440,93 @@ h5{
 .case__bot{
     height: 140px;
     margin-top: 8px;
-    border-radius: 0 0 120px 0;
-    padding: 20px 180px 0 20px ;
+    border-radius: 0 0 80px 0;
+    padding: 20px 20px 0 20px ;
     background-color: #f6f3fe;
 }
 .case__bot .sc_but{
     margin-top: 20px;
 }
-
-
+.showcase_container::before{
+    background: #171321;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 125px;
+    left: 50%;
+    z-index: -1;
+    position: absolute;
+    transform: translateX(-50%) translateY(20px);
+    width: 100%;
+}
+.table_container{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background: #171321;
+    align-items: center;
+    justify-content: center;
+}
+.table__block{
+    width: 80%;
+    padding-top: 40px;
+    max-width: 1200px;
+    height: 800px;
+}
+.table_header{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    line-height: 40px;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(91.08deg,#feb484 1.97%,#a686f2 27.88%,#592ac8 65.98%);
+    background-clip: text;
+}
+.text__table p{
+        padding-top: 20px;
+        color: #fff;
+        max-width: 600px;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: -1.4px;
+        line-height: 60px;
+}
+.t_b_1{
+    border: none;
+    background-color: #7d60c5;
+    border-radius: 90px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    transition: all .3s ease;
+    width: 160px;
+    height: 35px;
+}
+.t_b_2{
+    background: #45424d;
+    border: none;
+    border-radius: 90px;
+    color: #fff;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.t_b_2:hover{
+    border: none;
+    background-color: #7d60c5;
+    border-radius: 90px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    transition: all 0.3s ease;
+    width: 120px;
+    height: 35px;
+}
