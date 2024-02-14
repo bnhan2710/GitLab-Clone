@@ -799,11 +799,106 @@ h5{
     line-height: 42px
 
 }
+.spl-row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.spl-row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
 .background__bot{
     position: absolute;
     transform: rotateZ(180deg) translateY(-400px) ;
     width: 100%;
     height: 900px;
-    filter: contrast( 110%) brightness(100%);
+    filter: contrast( 120%) brightness(100%);
     z-index: -999;
+}
+.next__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 150px;
+}
+.next__block{
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 300px;
+    background: #171321;
+    border: 2px solid #45424d;
+    border-radius: 12px;
+}
+.next-col-left{
+    max-width: 450px;
+    width: 45%;
+    height: 80%;
+    padding: 28px;
+}
+.next-col-right{
+    width: 45%;
+    height: 80%;
+}
+.next-tit{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(89.95deg,#feb484 3.13%,#a686f2 66.86%,#592ac8 123.2%);
+    -webkit-background-clip: text;
+    max-width: 480px;
+    font-size: 42px;
+    margin-top: 20px;
+}
+.next-text{
+    transform: translateY(40px);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    line-height: 32px
+}
+.but-2{
+    align-items: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: Inter,"sans-serif";
+    font-size: 18px;
+    background-color: #fff;
+    font-weight: 600;
+    line-height: 20px;
+    min-width: 68px;
+    padding: 11px 16px;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color .3s cubic-bezier(.7,0,.3,1);
+    vertical-align: middle;
+    transform: translateY(50px);
+}
+.but-2:hover {
+    align-items: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: Inter,"sans-serif";
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(234, 233, 233);
+    line-height: 20px;
+    min-width: 68px;
+    padding: 11px 16px;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color .3s cubic-bezier(.7,0,.3,1);
+    vertical-align: middle;
+    transform: translateY(50px);
 }
