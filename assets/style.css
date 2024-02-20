@@ -117,7 +117,7 @@ transition: all 0.2 ease-in-out;
         display: none !important;
     }
     .fox_icon{
-        transform: translateX(120px);
+        transform: translateX(110px) translateY(-20px);
     }
 }
 .mt{
@@ -284,7 +284,71 @@ ul{
      .brand_lg_container{
         transform: translateY(100px);
      }
+     .nav_button1.top{
+        display: block !important;
+        width: 100%;
+        height: 35px;
+     }
+     .tool_container{
+        margin: 0 !important;
+        transform: translateY(-80px);
+     }
+     .showcase_container{
+        transform: translateY(-25px);
+     }
+     .tabbed__content_box{
+        flex-direction: column;
+     }
+     .jason_quote_card{
+      display: none;
+     }
+     .next__block{
+        flex-direction: column !important;
+        overflow: hidden;
+     }
+     .foot__container{
+        height: auto !important;
+     }
+     .foot__block{
+        height: auto !important;
+     }
+     .link__block{
+        max-width: 41px !important;
+        flex-wrap: wrap !important;
+        gap: 30px !important;
+        justify-content: space-between !important;
+        margin-top: 48px !important;
+     }
+     .logo_block{
+        margin-top: 40px;
+        height: auto !important;
+        flex-wrap: wrap !important;
+        gap: 30px !important;
+     }
+     .logo_item.L{
+        display: none !important;
+     }
+     .logo_item.X{
+        display: none;
+     }
+     .logo_list img{
+        width: 50px;
+     }
+     .logo_item.A{
+        transform: translateX(-20px) !important;
+     }
+     .logo_item.By{
+        transform: translateX(120px) translateY(-40px);
+     }
+     .logo_item.T{
+        transform: translateX(-60px) !important;
+     }
     }
+    .nav_button1.top{
+        display: none;
+        width: 100%;
+        height: 35px;
+     }
 .hero_scroll__block{
     justify-content: center;
     align-items: center;
