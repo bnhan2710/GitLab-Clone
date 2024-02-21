@@ -576,14 +576,19 @@ h1{
     .spotlight-right{
         display: none !important;
     }
-    .foot__block{
-        max-width: 400px;
-        flex-wrap: wrap;
-    }
     .intro_block{
         width: auto !important;
     }
     .in_but_left{width: 800px !important;}
+    ul{
+        display: none !important;
+    }
+    .intro_block{
+        width: 100% !important;
+    }
+    .intro_left{
+        width: 100% !important;
+    }
 }
 .intro_container{
     display: flex;
