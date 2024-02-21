@@ -300,7 +300,10 @@ ul{
         flex-direction: column;
      }
      .jason_quote_card{
-      display: none;
+      width: 200px !important;
+      height: 100px !important;
+      transform: translateY(40px) !important;
+      overflow: hidden;
      }
      .next__block{
         flex-direction: column !important;
@@ -485,6 +488,30 @@ h1{
     .in_but_right{
         display: none;
     }
+    .tab__logo{
+        display: none;
+    }
+    .tab__logo.one{
+        display: block;
+        transform: translateX(-20px) translateY(3px);
+        width: 140px;
+    }
+    .tab__logo.two{
+        display: block;
+        transform: translateX(-40px);
+    }
+    .tabbed-left{
+        width: 300px !important;
+    }
+    .tabbed-left h3{
+       font-size: 26px;
+    }
+    .tabbed-right{
+        display: block !important;
+        transform: translateY(-180px);
+        box-sizing: border-box !important;
+        
+    }
     .tool_container{
         margin-top: 80px;
         height: 500px !important;
@@ -526,7 +553,16 @@ h1{
         width: auto !important; 
     }
     .platform_container{
-        display: none !important;
+       transform: translateY(80px) !important;
+    }
+    .platform__block{
+        flex-direction: column !important;
+    }
+    .platform-right{
+        transform: translateY(230px) translateX(-180px);
+    }
+    .platform-left h3{
+        font-size: 30px;
     }
     .spotlight__block{
         flex-direction: column;
